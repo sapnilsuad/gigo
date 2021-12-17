@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background: #F8F8F8;  
+    overflow-x: hidden;
+}
+.navbar{
+    background: transparent !important;
+    padding-top: 0 !important; 
+    margin-top: 42px !important;
+} 
+.navbar .navbar-brand{ 
+    padding-top: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 105px !important;
+} 
+.navbar .nav-link{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 58px !important;
+    color: #202432 !important;
+    font-size: 16px; 
+    font-family: 'Lexend Deca', sans-serif;
+}
+.navbar .nav-link::after{
+    content: '';
+    display: block;
+    margin: auto;
+    background: #202432;
+    width: 0px;
+    height: 2px;   
+}
+.navbar .nav-link:hover::after{ 
+    content: '';
+    display: block;
+    margin: auto;
+    background: #202432;
+    width: 100%;
+    height: 2px;   
+    transition: all .3s;
+}
+.navbar .container{   
+    padding-left: 12px !important;
+}
+.btn-1{
+    margin: 0 !important; 
+    margin-top: 4px !important; 
+    background: #65C67F;  
+    color: #FCFDFD; 
+    font-size: 16px;  
+    font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid #65C67F;    
+    padding: 5px 10px !important;    
+    outline: none;
+    border-radius: 30px;
+}
+.btn-1:hover{   
+    background: transparent;
+    color: #65C67F;  
+    transition: ease-in-out .3s; 
+} 
+.btn-2{
+    margin: 0 !important; 
+    padding: 18px 30px !important; 
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #202432; 
+    background: #F1F1F1;   
+    border: 2px solid #F1F1F1;  
+    outline: none; 
+    border-radius: 35px; 
+}
+.btn-2:hover{   
+    border: 2px solid #202432;  
+    transition: ease-in-out .3s; 
+    background: #F1F1F1; 
+    color: #202432;
+}
+.main .col-md-7{
+    margin-top: 50px;
+} 
+.main .col-md-5 h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 90px;
+    font-weight: 600; 
+    margin-top: 160px;  
+    margin-bottom: 35px; 
+    color: #202432; 
+}
+.main .col-md-5 p{ 
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7B838C; 
+    margin-bottom: 55px; 
+}
+.btn-3{
+    margin: 0 !important; 
+    padding: 18px 43px !important; 
+    border: 2px solid #202432 !important; 
+    font-family: 'Mulish', sans-serif; 
+    font-size: 16px;
+    font-weight: bold; 
+    color: #FCFDFD; 
+    background: #202432;  
+    outline: none; 
+    border-radius: 35px; 
+    margin-right: 20px !important;
+}
+.btn-3:hover{       
+    transition: ease-in-out .3s;  
+    background: transparent;   
+    color: #202432;
+} 
+.main{
+    margin-bottom: 100px;
+}
+.service .box-2 .r-1,
+.service .box-3 .r-1, 
+.service .box-4 .r-1{    
+    background: #FAFAFA;  
+    text-align: center;
+    width: 45px;
+    height: 45px; 
+    border-radius: 50%;  
+    padding: 7px;
+    box-shadow: 2px 2px 10px rgb(194, 193, 193);  
+}
+.service .box-2 .r-2{    
+    background: #4587FF;  
+    margin: auto;
+    width: 32px;  
+    height: 32px;   
+    padding: 2px;
+    border-radius: 50%;  
+    box-shadow: 2px 2px 10px rgb(194, 193, 193);  
+}
+.service .box-3 .r-2{      
+    background: #67C459;  
+    margin: auto;
+    width: 32px;  
+    height: 32px;   
+    padding: 2px;
+    border-radius: 50%;  
+    box-shadow: 2px 2px 10px rgb(194, 193, 193);  
+}
+.service .box-4 .r-2{       
+    background: #EAA616;  
+    margin: auto;
+    width: 32px;  
+    height: 32px;   
+    padding: 2px;
+    border-radius: 50%;  
+    box-shadow: 2px 2px 10px rgb(194, 193, 193);  
+}
+.service{ 
+    margin-bottom: 45px;
+}
+.service .col-md-10 h3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #202432; 
+    margin-bottom: 16px;
+}
+.service .col-md-10 p{ 
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    color: #7B838C; 
+    line-height: 25px; 
+}
+/*  
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Mulish', sans-serif;
+*/ 

@@ -1,0 +1,227 @@
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+    .navbar{
+        margin-top: 10px !important;
+    }
+    .btn-2{  
+        margin: 0 !important;  
+        padding: 5px 10px !important;
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #202432; 
+        background: #F1F1F1;  
+        border: 2px solid #202432;  
+        outline: none; 
+        border-radius: 35px; 
+    }
+    .main .col-md-5{
+        width: 100% !important;
+    }
+    .main .col-md-7{ 
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .main .col-md-5 h1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 90px;
+        font-weight: 600;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        color: #202432;
+    }
+    .main .btn-2{ 
+        margin: 0 !important; 
+        padding: 18px 30px !important; 
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #202432; 
+        background: #F1F1F1;   
+        border: 2px solid #F1F1F1;  
+        outline: none; 
+        border-radius: 35px; 
+    }
+    .main .btn-2:hover{ 
+        border: 2px solid #202432;  
+        transition: ease-in-out .3s; 
+        background: #F1F1F1; 
+        color: #202432;
+    }
+    .service .col-md-2{ 
+        width: 100% !important; 
+    }
+    .service .box-2 .r-1, .service .box-3 .r-1, .service .box-4 .r-1{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .service .col-md-10{ 
+        width: 100% !important;  
+        text-align: center;
+    }
+
+
+}
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) { 
+    
+    .navbar{
+        margin-top: 15px !important;
+
+    }
+    .btn-2{  
+        margin: 0 !important;  
+        padding: 5px 10px !important;
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #202432; 
+        background: #F1F1F1;  
+        border: 2px solid #202432;  
+        outline: none; 
+        border-radius: 35px; 
+    }
+    .main .col-md-5{
+        width: 100% !important;
+    }
+    .main .col-md-7{ 
+        width: 100% !important;
+        text-align: center !important;
+    } 
+    .main .col-md-5 h1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 45px; 
+        font-weight: 600;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        color: #202432;
+    }
+    .main .btn-2{  
+        margin: 0 !important; 
+        padding: 18px 30px !important; 
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #202432; 
+        background: #F1F1F1;   
+        border: 2px solid #F1F1F1;  
+        outline: none; 
+        border-radius: 35px; 
+    }
+    .main .btn-2:hover{ 
+        border: 2px solid #202432;  
+        transition: ease-in-out .3s; 
+        background: #F1F1F1; 
+        color: #202432;
+    }
+    .service .col-md-2{ 
+        width: 100% !important; 
+    }
+    .service .box-2 .r-1, .service .box-3 .r-1, .service .box-4 .r-1{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .service .col-md-10{ 
+        width: 100% !important;  
+        text-align: center;
+    }
+    .service .col-md-10 p{
+        padding: 0 80px; 
+        margin-bottom: 40px;
+    }
+
+    
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {  
+    
+    .navbar{  
+        margin-top: 15px !important;
+
+    }
+    .btn-2{  
+        margin: 0 !important;  
+        padding: 5px 10px !important;
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #202432; 
+        background: #F1F1F1;  
+        border: 2px solid #202432;  
+        outline: none; 
+        border-radius: 35px; 
+    }
+    .main .col-md-5{
+        width: 100% !important;
+    }
+    .main .col-md-7{ 
+        width: 100% !important;
+        text-align: center !important;
+    } 
+    .main .col-md-5 h1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #202432;
+    }
+    .main .col-md-5 p {
+        font-size: 16px;
+        margin-bottom: 30px !important;
+    }
+    .main .col-md-12{
+        text-align: center;
+    }
+    .main .btn-2{   
+        margin: 0 !important; 
+        padding: 18px 30px !important; 
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #202432; 
+        background: #F1F1F1;   
+        border: 2px solid #F1F1F1;  
+        outline: none; 
+        border-radius: 35px; 
+    }
+    .main .btn-2:hover{ 
+        border: 2px solid #202432;  
+        transition: ease-in-out .3s; 
+        background: #F1F1F1; 
+        color: #202432;
+    }
+    .btn-3{
+        margin-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .service .col-md-2{ 
+        width: 100% !important; 
+    }
+    .service .box-2 .r-1, .service .box-3 .r-1, .service .box-4 .r-1{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .service .col-md-10{ 
+        width: 100% !important;  
+        text-align: center;
+    }
+    .service .col-md-10 p {
+        padding: 0 26px;
+        margin-bottom: 40px;
+    } 
+}
